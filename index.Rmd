@@ -8,8 +8,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Hola
+soy __Brigitte Castañeda__
 
-Hola yo si pude Jajajaja!
+Mírame [aquí](https://github.com/brigitte-castaneda)
+
 ---
 pagetitle : Home - Brigitte Castañeda
 ---

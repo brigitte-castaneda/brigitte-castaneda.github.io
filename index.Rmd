@@ -14,86 +14,69 @@ Mírame [aquí](https://github.com/brigitte-castaneda)
 
 ---
 pagetitle : Home - Brigitte Castañeda
----
-
-<br>  </br> <!--- Agrega lineas en blanco --->
-
-<!------------- Panel de la izquierda ------------->
-<div class="col-sm-4">
-
-<!-- Foto completa -->
-<img src="./images/profile2.png" class="center" alt="drawing" width="250" height="250"/>
-
-#### Eduard F. Martínez-González
-Economics PhD student at Universidad de los Andes, interested in Crime Economics and Education.
-
-<!-- Location -->
-<a href="https://www.google.com/maps/place/Bogotá/@4.6486259,-74.2478944,11z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092" style="color:black;"> <img alt="Qries" src="./images/location.png" width=30" height="30">  Bogotá, Colombia.</a>
-
-<!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width=30" height="30"> ef.martinezg@uniandes.edu.co </img></p>
-
-<!-- Correo -->
-<p style="color:black"><img alt="Qries" src="./images/correo.png" width=30" height="30"> edfemagonza@gmail.com </img></p>
-
-<!-- Twitter -->
- <a href="https://twitter.com/emartigo" style="color:black;"> <img alt="Qries" src="./images/twitter.jpg" width=30" height="30">  @emartigo</a> 
-
-<!-- GitHub -->
-<a href="https://github.com/eduard-martinez" style="color:black;"> <img alt="Qries" src="./images/github.png" width=30" height="30">  eduard-martinez</a>
-
-</div>
-<!------------- Fin panel de la izquierda ------------->
-
-<!------------- Panel de la derecha ------------->
-<div class="col-sm-8">
-
-<br>  </br> <!--- Agrega lineas en blanco --->
-
-## About me
-
-I’m an Economics PhD student at Universidad de los Andes. My primary interests are Crime Economics, Education and Labor Market. I’m also interested in Applied Econometrics, Big Data, and Machine Learning.
-
-You can find my CV <a href="https://eduard-martinez.github.io/cv/C_Eduard_F_Martinez_G.pdf">here</a>.
 
 
-## Experience
+```{r, eval=T , echo=F , message=F , warning=F}
+# load packages
+require(pacman) # require pacman
+p_load(tidyverse,rio,sf,leaflet,viridis, # require and/or install packages
+       osmdata, # API Open Street Maps
+       ggmap,   # API Google Maps
+       ggsn,    # Barras de escalas
+       gtools)  # Funcion quantcut
 
-* #### Teaching
 
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong>  Statistical & R Programming Workshop Seminar (in Spanish), Department of Economics, Universidad de los Andes, Colombia. 2019 - Currently. ([Available here](https://github.com/taller-R-202201))</p>
-  
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Big Data and Machine Learning en el Mercado Inmobiliario (in Spanish), Department of Economics, Universidad de los Andes, Colombia. 2021 - Currently. ([Available here](https://ignaciomsarmiento.github.io/teaching/BDML)) </p>
-  
-  + <p><strong style="color:black;font-size:16px;"> Teaching Assitance: </strong> Big Data and Machine Learning for Applied Economics - Econ 4676, Department of Economics, Universidad de los Andes, Colombia. 2022 - Currently. </p>
+######## 1.1. Descargar datos   ######## 
 
-  + <p><strong style="color:black;font-size:16px;"> Adjunct professor: </strong> Curso de Geoestadística, Universidad Piloto de Colombia, Colombia. 2021. </p>
-  
-* #### Research
+#=== 1.1.1. Get amenities ===#
 
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong> Centro de Investigaciones Económicas y Financieras (CIEF), Universidad EAFIT, Colombia. 2021 - currently </p>
-    
-  + <p><strong style="color:black;font-size:16px;">Research Assistant: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED), Universidad de los Andes, Colombia. 2019 - 2020. </p>
+# get osm data
+osm = opq(bbox = getbb("Cali Colombia")) %>%
+  #add_osm_feature(key = "amenity", value = "parking") %>%
+  add_osm_feature(key = "amenity", value = "bus_station") %>%
+  #add_osm_feature(key = "amenity", value = "stripclub") %>%
+  osmdata_sf()
+osm %>% class()
+osm
 
-  + <p><strong style="color:black;font-size:16px;"> Research Analyst: </strong>  Centro de Estudios sobre Seguridad y Drogas (CESED) - Universidad de los Andes, Colombia. 2018 - 2019. </p>
+# get sf object
+amenities = osm$osm_points  %>%  dplyr::select ( c("osm_id", "amenity"))
 
-  + <p><strong style="color:black;font-size:16px;"> Research Assistant: </strong>  Centro de Estudios Económicos Regionales (CEER) - Central Bank of Colombia. 2016 - 2017. </p>
+#=== 1.1.2. Get street ===#
+# get osm data
+street = opq(bbox = getbb("Cali Colombia")) %>%
+  add_osm_feature(key = "highway") %>%
+  osmdata_sf()
 
-* #### Other experience
-  
-  + <p><strong style="color:black;font-size:16px;">Research Analyst: </strong>  Fundación Ideas para la Paz (FIP), Colombia. 2020 - 2021. </p>
-  
-  + <p><strong style="color:black;font-size:16px;">Research Analyst: </strong>  Truth Commission, Colombia. 2020 - 2021. </p>
+# get sf object
+street = street$osm_lines %>% dplyr::select(osm_id,name)
+street = street %>%
+  subset(str_detect(name,"Avenida")==T | str_detect(name,"MIO")==T)
 
-## Contac info
+#=== 1.1.3. Get Polygons ===#
 
-<!-- Correo -->
-<span id="person-email" itemprop="email"><a href="ef.martinezg@uniandes.edu.co" style="color:black;"> <img alt="Qries" src="./images/correo.png" width=30" height="30">  ef.martinezg@uniandes.edu.co</a></span>
+# get osm data
+barrios = opq(bbox = getbb("Cali Colombia")) %>%
+  add_osm_feature(key = "place", value = "neighbourhood") %>%
+  osmdata_sf()
 
-<!-- Location -->
-<a href="https://www.google.com/maps/place/Universidad+de+los+Andes/@4.6014634,-74.0683221,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f99a4a124b335:0x8e9f4683d1db9cb!8m2!3d4.6014581!4d-74.0661334" style="color:black;"> <img alt="Qries" src="./images/location.png" width=30" height="30">  Department of Economics, Universidad de los Andes, Bogotá, Colombia.</a>
+# get sf object
+barrios = barrios$osm_multipolygons %>% dplyr::select(osm_id,name) %>% st_transform(4326)
 
-<!-- Tel -->
-<img alt="Qries" src="./images/tel.png" width=30" height="30"> (+571) 3394949 Ext: 2430 </img>
 
-</div> <!--- FIn del panel de la derecha --->
+######## 1.2. Visualizar información   ######## 
+leaflet() %>% 
+  addTiles() %>% 
+  addPolygons(data=barrios, col="red")%>% 
+  addPolylines(data=street, weight=1 , col="green") %>% 
+  addCircleMarkers(data=amenities, weight=0.3 , col="blue")
+
+
+```
+
+Este mapa muestra que el huracan **Katrina** tuvo un diámetro máximo de `r max(df$hu_diameter, na.rm=T)` metros. Los datos fueron tomados de la página oficial de [NOAA](https://www.nhc.noaa.gov/data/#hurdat). Por ejemplo la distribución de huracanes a lo largo del tiempo se ve así:
+
+
+```{r, eval=T , echo=F , message=F , warning=F}
+hist(df$year)
+```

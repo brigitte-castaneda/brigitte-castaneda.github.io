@@ -23,18 +23,6 @@ I am a PhD Candidate in Economics at [Universidad de los Andes](https://economia
 **Supervisor:** [Hernando Zuleta](https://scholar.google.com/citations?user=CgFQtFIAAAAJ&hl=en)
 
 ---
-👇 **Scroll down to ask Brigitte’s AI Assistant anything about my research, experience and job market profile** 
-<div class="ai-agent-container" style="border: 1px solid #ddd; padding: 1rem; border-radius: 8px; margin-top: 2rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-<iframe
-src="https://brigitte-chatbot-667403711390.us-central1.run.app"
-style="width: 100%; height: 300px; border: none; border-radius: 4px;"
-title="Brigitte's AI Assistant">
-</iframe>
-</div>
-
-
-
----
 **Thesis Overview:**
 
 - *Can Growth Take Place While Reducing Emissions? The Role of Energy Mix*  

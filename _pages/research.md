@@ -39,9 +39,16 @@ order: 2
 - **When the Oil Runs Low, Where Do Students Go? Evidence from Local Shocks in Colombia**  
   *with Jaime Polanco*  
   
-- **How to make fossil fuel subsidy reform socially acceptable in Colombia: the role of information and compensatory policies**  
-  *with Farah Mohammadzadeh, Charlotte Bez, Leonard Missbach, Jan C. Steckel, Jorge Bonilla, Jorge Garcia. - Supported by EfD.*  
-  [Link](https://www.youtube.com/watch?v=xU4Jb-72xrM&ab_channel=17thBiennialConference)
+- **Spreading Jam Across the National Toast: Royalties and Local Fiscal Capacities**  
+  *with Andrés Álvarez and Marc Hofstetter*  
+  [Link](assets/docs/JMP_Brigitte_Castaneda.pdf)
+
+- **An Ounce of Prevention, a Pound of Cure? The Impact of Natural Disasters and Preventive Investment in Colombian Municipalities**  
+  *(Funded by the Inter-American Development Bank - IDB)*  
+  
+- **Reforming Fossil Fuel Subsidies with Citizens' Approval: The Case of Colombia**  
+  *with Charlotte Sophia Bez, Jorge A. Bonilla, Brigitte Castañeda Rodríguez, Jorge H. García, Leonard Missbach, Farah Mohammadzadeh Valencia, Jan Christoph Steckel. - Supported by EfD.*  
+  [Link](https://www.ifo.de/en/cesifo/publications/2026/working-paper/reforming-fossil-fuel-subsidies-citizens-approval-case-colombia)
   
 
 ### Conference Papers

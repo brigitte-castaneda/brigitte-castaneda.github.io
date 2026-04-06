@@ -25,16 +25,15 @@ ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): 
 
 **Current Research & Working Papers:**
 
-- *Can Growth Take Place While Reducing Emissions? The Role of Energy Mix* (with Hernando Zuleta)  
-  [[PDF]](assets/docs/Can_growth_take_place_while_reducing_emissions.pdf)
-
-- *Climate Policy and Structural Change: Evidence from Energy Transition in Latin America* (with Hernando Zuleta)  
-  [[PDF]](assets/docs/Structural_change_and_climate_policies.pdf)
-
 - *Spreading Jam Across the National Toast: Royalties and Local Fiscal Capacities* (with Andrés Álvarez and Marc Hofstetter)  
   [[PDF]](assets/docs/JMP_Brigitte_Castaneda.pdf)
 
 - *An Ounce of Prevention, a Pound of Cure? The Impact of Natural Disasters and Preventive Investment in Colombian Municipalities* (Funded by the Inter-American Development Bank - IDB)
+
+- *Reforming Fossil Fuel Subsidies with Citizens' Approval: The Case of Colombia* (Funded by EfD)  
+  [[Link]](https://www.ifo.de/en/cesifo/publications/2026/working-paper/reforming-fossil-fuel-subsidies-citizens-approval-case-colombia)
+
+SynthIE, a new multi-agent tool designed to optimize the publication process in Industrial Engineering journals: https://lnkd.in/eSZkhM7c
 
 **Policy Impact & Applied Experience:**
 I strongly believe in translating academic research into actionable engineering and public policy. I am currently leading a research grant funded by the Inter-American Development Bank (IDB). Previously, I have worked as a Data Scientist and Economic Consultant for the World Bank, Global Green Growth Institute (GGGI), and the Environmental Defense Fund (EDF), supporting work on Article 6 of the Paris Agreement, logistics optimization, and just energy transitions.

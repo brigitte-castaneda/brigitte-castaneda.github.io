@@ -13,9 +13,7 @@ news: true
 social: true
 ---
 Welcome!
-I am a Postdoctoral Assistant in the Department of Industrial Engineering at Universidad de los Andes. With a background in Engineering (B.S. and M.Sc. in Petroleum and Gas Engineering) and Economics (Ph.D.), my research develops data-driven frameworks and decision-support models to navigate the energy transition and manage climate-induced systemic risks.
-
-My work bridges the gap between quantitative engineering models and macroeconomic policy. I combine statistical learning, causal inference, and stochastic modeling to evaluate capital investments in green infrastructure, carbon pricing mechanisms, and sustainable fiscal policies, with a special focus on the Global South.
+I am a Postdoctoral Assistant in the Department of Industrial Engineering at Universidad de los Andes. My work bridges the gap between quantitative engineering models and macroeconomic policy. I combine statistical learning, causal inference, and stochastic modeling to evaluate capital investments in green infrastructure, carbon pricing mechanisms, and sustainable fiscal policies, with a special focus on the Global South.
 
 **Research Interests:** Engineering Economic Analysis, Energy Systems Resilience, Climate Policy Evaluation, Causal Inference & Predictive Analytics.
 

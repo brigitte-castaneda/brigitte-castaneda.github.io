@@ -19,9 +19,7 @@ I am a Postdoctoral Assistant in the Department of Industrial Engineering at Uni
 
 **Languages:** Spanish (Native), English (Fluent), Russian (Fluent), French (Basic).
 
-**Teaching:**
-
-ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): Undergraduate course focusing on capital budgeting, real options, and investment decision-making under uncertainty.
+**Teaching:** ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): Undergraduate course focusing on investment decision-making under uncertainty.
 
 **Current Research & Working Papers:**
 
@@ -33,7 +31,7 @@ ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): 
 - *Reforming Fossil Fuel Subsidies with Citizens' Approval: The Case of Colombia* (Funded by EfD)  
   [[Link]](https://www.ifo.de/en/cesifo/publications/2026/working-paper/reforming-fossil-fuel-subsidies-citizens-approval-case-colombia)
 
-SynthIE, a new multi-agent tool designed to optimize the publication process in Industrial Engineering journals: [[Link]](https://synthie-667403711390.us-west1.run.app/)
+**APPs:** *SynthIE*, a new multi-agent tool designed to optimize the publication process in Industrial Engineering journals: [[Link]](https://synthie-667403711390.us-west1.run.app/)
 
 **Policy Impact & Applied Experience:**
 I strongly believe in translating academic research into actionable engineering and public policy. I am currently leading a research grant funded by the Inter-American Development Bank (IDB). Previously, I have worked as a Data Scientist and Economic Consultant for the World Bank, Global Green Growth Institute (GGGI), and the Environmental Defense Fund (EDF), supporting work on Article 6 of the Paris Agreement, logistics optimization, and just energy transitions.

@@ -1,14 +1,10 @@
 ---
 layout: page
 permalink: /activities/
-title: Research and Teaching Activities
+title: Teaching
 description: A growing collection of your previous and current projects.
 order: 3
 ---
-
-### Grants 
-- **IDB Research Grant** – 25,000 USD — **2025**
-- **EfD Research Project** – 50,000 USD — **2024**
 
 ### Teaching
 - **TA**, Economics and Sustainability (Graduate level)  
@@ -25,6 +21,11 @@ order: 3
 
 - **TA**, Elective in Oil and Gas Engineering  
   Universidad de los Andes — **2021-I**
+
+
+### Grants 
+- **IDB Research Grant** – 25,000 USD — **2025**
+- **EfD Research Project** – 50,000 USD — **2024**
 
 ### Presentations
 - SETI Annual Workshop, Gothenburg, Sweden (2025.08).

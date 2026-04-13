@@ -23,6 +23,10 @@ I am a Postdoctoral Assistant in the Department of Industrial Engineering at Uni
 
 **Current Research & Working Papers:**
 
+
+- *Climate Policy and Structural Change: Evidence from Energy Transitions in Latin America* (with Hernando Zuleta)
+  [PDF] (https://ssrn.com/abstract=5817162)
+
 - *Spreading Jam Across the National Toast: Royalties and Local Fiscal Capacities* (with Andrés Álvarez and Marc Hofstetter)  
   [[PDF]](assets/docs/JMP_Brigitte_Castaneda.pdf)
 

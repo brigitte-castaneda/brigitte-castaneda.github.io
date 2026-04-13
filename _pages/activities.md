@@ -7,6 +7,10 @@ order: 3
 ---
 
 ### Teaching
+- **Professor**, ANADEC: Análisis de Decisiones de Inversión (Undergraduate level)
+  Universidad de los Andes — **2026-I**
+  
+
 - **TA**, Economics and Sustainability (Graduate level)  
   Universidad de los Andes — **2025-I**
 

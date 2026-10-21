@@ -3,8 +3,7 @@ layout: about
 permalink: /
 title: <strong>Brigitte</strong> Castañeda Rodríguez
 order: 1
-description: Engineering Economic Analysis | Energy Systems | Climate Policy
-
+description: Economist and Petoleum Engineer 
 profile:
   align: right
   image: prof_pic_26.png
@@ -12,12 +11,15 @@ profile:
 news: true
 social: true
 ---
+
 Welcome!
-I am a Postdoctoral Assistant in the Department of Industrial Engineering at Universidad de los Andes. My work bridges the gap between quantitative engineering models and macroeconomic policy. I combine statistical learning, causal inference, and stochastic modeling to evaluate capital investments in green infrastructure, carbon pricing mechanisms, and sustainable fiscal policies, with a special focus on the Global South.
 
-**Research Interests:** Engineering Economic Analysis, Energy Systems Resilience, Climate Policy Evaluation, Causal Inference & Predictive Analytics.
+I am a Postdoctoral Assistant and Professor in the Department of Industrial Engineering at Universidad de los Andes. 
+I have a background in engineering and economics. My research combines economic strategies and views with applied toold from optimization and enginering. My work bridges the gap between economic results and specific policy solutions. I combine causal inference, and stochastic modeling to evaluate climate policies, like carbon pricing, fiscal transfers, and the energy transition—especially in Latin America.
 
-**Languages:** Spanish (Native), English (Fluent), Russian (Fluent), French (Basic).
+**Research interests:** Energy, Carbon Pricing Policy, Energy Transition, and Decision Theory
+
+**Languages:** Spanish (Native), English (Fluent), Russian (Fluent), French (Basic)  
 
 **Teaching:** ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): Undergraduate course focusing on investment decision-making under uncertainty.
 
@@ -38,8 +40,7 @@ I am a Postdoctoral Assistant in the Department of Industrial Engineering at Uni
 **APPs:** *SynthIE*, a new multi-agent tool designed to optimize the publication process in Industrial Engineering journals: [[Link]](https://synthie.ai.studio/)
 
 **Policy Impact & Applied Experience:**
-I strongly believe in translating academic research into actionable engineering and public policy. I am currently leading a research grant funded by the Inter-American Development Bank (IDB). Previously, I have worked as a Data Scientist and Economic Consultant for the World Bank, Global Green Growth Institute (GGGI), and the Environmental Defense Fund (EDF), supporting work on Article 6 of the Paris Agreement, logistics optimization, and just energy transitions.
-
+I strongly believe in translating academic research into actionable engineering and public policy. 
 I am also an active member of the EfD Network through REES Colombia and the RESET Network.
 
-<small>*Last updated: Sept 2026*</small>
+<small>*Last updated: Oct 2026*</small>

@@ -3,7 +3,7 @@ layout: about
 permalink: /
 title: <strong>Brigitte</strong> Castañeda Rodríguez
 order: 1
-description: Economist and Petoleum Engineer 
+description: Economist and Petroleum Engineer 
 profile:
   align: right
   image: prof_pic_26.png
@@ -15,7 +15,7 @@ social: true
 Welcome!
 
 I am a Postdoctoral Assistant and Professor in the Department of Industrial Engineering at Universidad de los Andes. 
-I have a background in engineering and economics. My research combines economic strategies and views with applied toold from optimization and enginering. My work bridges the gap between economic results and specific policy solutions. I combine causal inference, and stochastic modeling to evaluate climate policies, like carbon pricing, fiscal transfers, and the energy transition—especially in Latin America.
+I have a background in engineering and economics. My research combines economic strategies with applied tools from optimization and enginering. My work bridges the gap between economic findings and specific policy solutions. I combine causal inference, and stochastic modeling to evaluate climate policies, like carbon pricing, fiscal transfers, and the energy transition—especially in Latin America.
 
 **Research interests:** Energy, Carbon Pricing Policy, Energy Transition, and Decision Theory
 

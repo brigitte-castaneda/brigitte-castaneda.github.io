@@ -21,7 +21,7 @@ I have a background in engineering and economics. My research combines economic 
 
 **Languages:** Spanish (Native), English (Fluent), Russian (Fluent), French (Basic)  
 
-**Teaching:** ANADEC (Análisis de Decisiones de Inversión / Engineering Economic Analysis): Undergraduate course focusing on investment decision-making under uncertainty.
+**Teaching:** Finance and Desicion Theory under uncertainty.
 
 **Current Research & Working Papers:**
 

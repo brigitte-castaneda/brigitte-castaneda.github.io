@@ -26,10 +26,10 @@ I have a background in engineering and economics. My research combines economic 
 **Current Research & Working Papers:**
 
 - *Local Shocks, Limited Fiscal Response: Natural Disasters and Municipal Public Finances in Colombia* (with Oscar Becerra, David Perez-Reyna and Angel Avila)
-  [PDF] (https://ideas.repec.org/p/col/000089/023643.html)
+  [[Link]](https://ideas.repec.org/p/col/000089/023643.html)
 
 - *Climate Policy and Structural Change: Evidence from Energy Transitions in Latin America* (with Hernando Zuleta)
-  [PDF] (https://ssrn.com/abstract=5817162)
+  [[Link]](https://ssrn.com/abstract=5817162)
 
 - *Spreading Jam Across the National Toast: Royalties and Local Fiscal Capacities* (with Andrés Álvarez and Marc Hofstetter)  
   [[PDF]](https://ideas.repec.org/p/col/000089/021389.html)
